@@ -1,0 +1,26 @@
+
+#appWrap{
+  display: flex;
+  flex-direction: row;
+}
+#firstCol, #secCol{
+  width: 50%;
+  margin: 20px;
+}
+.wrapLocTime{
+  display: flex;
+  flex-direction: row;
+
+}
+.wrapLocTime > *{
+  margin-left: 20px;
+}
+@media only screen and (max-width: 600px) {
+  #firstCol, #secCol{
+    width: 100%;
+  }
+  #appWrap{
+    flex-direction: column;
+  }
+}
+
